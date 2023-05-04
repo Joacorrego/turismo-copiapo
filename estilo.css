@@ -16,8 +16,8 @@
 body{
     font-family: 'Open Sans';
     min-height: 100vh;
-    background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);;
-    
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(36,36,84,1) 100%, rgba(0,212,255,1) 100%);
     
     
 }
@@ -131,7 +131,7 @@ nav a:hover{
     justify-content: center;
     align-items: center;
  
- background-image: url(imagenes/ojos_salado.jpg);
+ 
       
 }
 
@@ -144,7 +144,7 @@ nav a:hover{
     align-items: center;
     
  
- background-image: url(imagenes/HUMEDAL-COPIAPO-3-scaled.jpg);
+ 
 
 }
 
@@ -181,6 +181,7 @@ div.pie{
     text-align: center;
     text-shadow: 2px 2px 5px purple;
     padding: 10px;
+    color: #bbb0b0;
 }
 
 
@@ -193,7 +194,7 @@ div.pie{
     align-items: center;
     
  
- background-image: url(imagenes/ojos_salado.jpg);
+ 
 
 }
 
@@ -206,6 +207,7 @@ div.pie{
     padding-top: 0;
     
     
+    
 }
 
 
@@ -213,6 +215,7 @@ div.pie{
     height: 90%;
     width: 90%;
     border-style: solid;
+    
     
 }
 
@@ -309,3 +312,8 @@ div.pie{
   
 }
 
+*hr {
+    border: none;
+    border-top: 2px solid black;
+    margin: 10px 0;
+  }
